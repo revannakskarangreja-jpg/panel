@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Order": {
+      "title": "Order",
+      "description": "Order records for panel purchases and store services",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "packageId": { "type": "string", "maxLength": 128 },
+        "packageName": { "type": "string", "maxLength": 200 },
+        "price": { "type": "number" },
+        "buyerName": { "type": "string", "maxLength": 100 },
+        "buyerContact": { "type": "string", "maxLength": 50 },
+        "paymentMethod": { "type": "string", "maxLength": 50 },
+        "paymentStatus": { "type": "string", "maxLength": 50 },
+        "orderStatus": { "type": "string", "maxLength": 50 },
+        "createdAt": { "type": "string", "maxLength": 100 }
+      },
+      "required": [
+        "id",
+        "packageId",
+        "packageName",
+        "price",
+        "buyerName",
+        "buyerContact",
+        "paymentMethod",
+        "paymentStatus",
+        "orderStatus",
+        "createdAt"
+      ]
+    },
+    "PaymentSettings": {
+      "title": "PaymentSettings",
+      "description": "Store configuration for QRIS, DANA, and bank transfers",
+      "type": "object",
+      "properties": {
+        "danaNumber": { "type": "string", "maxLength": 50 },
+        "danaName": { "type": "string", "maxLength": 100 },
+        "qrisStoreName": { "type": "string", "maxLength": 100 },
+        "qrisNmid": { "type": "string", "maxLength": 100 },
+        "qrisImageUrl": { "type": "string" }
+      },
+      "required": ["danaNumber", "danaName"]
+    }
+  },
+  "firestore": {
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Public readable order lookup by ID and order creation"
+    },
+    "/settings/{settingId}": {
+      "schema": "PaymentSettings",
+      "description": "Store payment settings"
+    }
+  }
+}

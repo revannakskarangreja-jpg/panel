@@ -1,0 +1,6 @@
+{
+  "name": "VANN PETERODYCL",
+  "description": "Toko digital penyedia panel Pterodactyl siap pakai dengan sistem pengiriman akun otomatis dan stok real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

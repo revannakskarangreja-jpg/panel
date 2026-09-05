@@ -1,0 +1,972 @@
+{
+  "packages": [
+    {
+      "id": "pkg-3gb",
+      "name": "Panel 3GB",
+      "ram": 3,
+      "ramUnit": "GB",
+      "price": 1000,
+      "description": "Cocok untuk server Discord bot, server testing, dan game server kecil.",
+      "cpu": "130% CPU",
+      "disk": "5 GB NVMe High Speed",
+      "active": true,
+      "orderIndex": 1
+    },
+    {
+      "id": "pkg-4gb",
+      "name": "Panel 4GB",
+      "ram": 4,
+      "ramUnit": "GB",
+      "price": 2000,
+      "description": "Stabil untuk Minecraft Vanilla, SAMP, dan Bot WhatsApp multi-device.",
+      "cpu": "150% CPU",
+      "disk": "7 GB NVMe High Speed",
+      "active": true,
+      "orderIndex": 2
+    },
+    {
+      "id": "pkg-5gb",
+      "name": "Panel 5GB",
+      "ram": 5,
+      "ramUnit": "GB",
+      "price": 3000,
+      "description": "Performa tinggi untuk Minecraft Paper/Spigot dengan beberapa plugin populer.",
+      "cpu": "180% CPU",
+      "disk": "10 GB NVMe High Speed",
+      "active": true,
+      "orderIndex": 3
+    },
+    {
+      "id": "pkg-6gb",
+      "name": "Panel 6GB",
+      "ram": 6,
+      "ramUnit": "GB",
+      "price": 4000,
+      "description": "Sangat lancar untuk server komunitas dan game server multiplayer aktif.",
+      "cpu": "200% CPU",
+      "disk": "12 GB NVMe High Speed",
+      "active": true,
+      "orderIndex": 4
+    },
+    {
+      "id": "pkg-7gb",
+      "name": "Panel 7GB",
+      "ram": 7,
+      "ramUnit": "GB",
+      "price": 5000,
+      "description": "Kapasitas ekstra untuk survival modded atau server medium load.",
+      "cpu": "220% CPU",
+      "disk": "15 GB NVMe High Speed",
+      "active": true,
+      "orderIndex": 5
+    },
+    {
+      "id": "pkg-8gb",
+      "name": "Panel 8GB",
+      "ram": 8,
+      "ramUnit": "GB",
+      "price": 6000,
+      "description": "Paket flagship Pterodactyl untuk server performa berat dan resource-intensive.",
+      "cpu": "250% CPU",
+      "disk": "20 GB NVMe High Speed",
+      "active": true,
+      "orderIndex": 6
+    }
+  ],
+  "stocks": [
+    {
+      "id": "stk-pkg-3gb-001-a87bf9",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_001",
+      "password": "Vnp#3GBA87BF9!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25501",
+      "status": "SOLD",
+      "createdAt": "2026-09-03T00:01:55.416Z",
+      "assignedOrderId": "VNP-2ED4891F",
+      "soldAt": "2026-09-03T00:04:45.406Z"
+    },
+    {
+      "id": "stk-pkg-3gb-002-c30546",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_002",
+      "password": "Vnp#3GBC30546!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25502",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.416Z"
+    },
+    {
+      "id": "stk-pkg-3gb-003-27df20",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_003",
+      "password": "Vnp#3GB27DF20!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25503",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.416Z"
+    },
+    {
+      "id": "stk-pkg-3gb-004-941ebb",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_004",
+      "password": "Vnp#3GB941EBB!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25504",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-005-f00ef4",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_005",
+      "password": "Vnp#3GBF00EF4!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25505",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-006-c2b190",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_006",
+      "password": "Vnp#3GBC2B190!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25506",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-007-bf505a",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_007",
+      "password": "Vnp#3GBBF505A!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25507",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-008-3e158e",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_008",
+      "password": "Vnp#3GB3E158E!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25508",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-009-57f4b7",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_009",
+      "password": "Vnp#3GB57F4B7!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25509",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-010-5ef937",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_010",
+      "password": "Vnp#3GB5EF937!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25510",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-011-3f02b7",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_011",
+      "password": "Vnp#3GB3F02B7!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25511",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-012-094f1f",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_012",
+      "password": "Vnp#3GB094F1F!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25512",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-013-411558",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_013",
+      "password": "Vnp#3GB411558!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25513",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-014-4f1685",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_014",
+      "password": "Vnp#3GB4F1685!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25514",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-015-28bfc2",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_015",
+      "password": "Vnp#3GB28BFC2!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25515",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-016-669734",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_016",
+      "password": "Vnp#3GB669734!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25516",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-017-df0b4b",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_017",
+      "password": "Vnp#3GBDF0B4B!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25517",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-018-80d94a",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_018",
+      "password": "Vnp#3GB80D94A!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25518",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-019-3cff22",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_019",
+      "password": "Vnp#3GB3CFF22!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25519",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-020-f59951",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_020",
+      "password": "Vnp#3GBF59951!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25520",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-021-ad81f7",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_021",
+      "password": "Vnp#3GBAD81F7!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25521",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-022-7bd149",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_022",
+      "password": "Vnp#3GB7BD149!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25522",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-023-331572",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_023",
+      "password": "Vnp#3GB331572!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25523",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-024-576036",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_024",
+      "password": "Vnp#3GB576036!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25524",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-3gb-025-ff17ca",
+      "packageId": "pkg-3gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_3gb_025",
+      "password": "Vnp#3GBFF17CA!",
+      "notes": "Auto-generated stock for 3GB ready to use. Port: 25525",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-001-6812b3",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_001",
+      "password": "Vnp#4GB6812B3!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25501",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-002-99c74b",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_002",
+      "password": "Vnp#4GB99C74B!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25502",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-003-9329a4",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_003",
+      "password": "Vnp#4GB9329A4!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25503",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-004-245488",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_004",
+      "password": "Vnp#4GB245488!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25504",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-005-8c2b15",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_005",
+      "password": "Vnp#4GB8C2B15!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25505",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-006-25cd92",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_006",
+      "password": "Vnp#4GB25CD92!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25506",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-007-0fd853",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_007",
+      "password": "Vnp#4GB0FD853!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25507",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-008-f79754",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_008",
+      "password": "Vnp#4GBF79754!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25508",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-009-c770a7",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_009",
+      "password": "Vnp#4GBC770A7!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25509",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-010-ebb64a",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_010",
+      "password": "Vnp#4GBEBB64A!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25510",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-011-c1d547",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_011",
+      "password": "Vnp#4GBC1D547!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25511",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-012-bfe2ef",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_012",
+      "password": "Vnp#4GBBFE2EF!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25512",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-013-5b98eb",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_013",
+      "password": "Vnp#4GB5B98EB!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25513",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-014-7be855",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_014",
+      "password": "Vnp#4GB7BE855!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25514",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-015-369f7f",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_015",
+      "password": "Vnp#4GB369F7F!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25515",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-016-dabce8",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_016",
+      "password": "Vnp#4GBDABCE8!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25516",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-017-2a9061",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_017",
+      "password": "Vnp#4GB2A9061!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25517",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-018-a14e78",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_018",
+      "password": "Vnp#4GBA14E78!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25518",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-019-b3ce81",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_019",
+      "password": "Vnp#4GBB3CE81!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25519",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-4gb-020-e6547d",
+      "packageId": "pkg-4gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_4gb_020",
+      "password": "Vnp#4GBE6547D!",
+      "notes": "Auto-generated stock for 4GB ready to use. Port: 25520",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-001-de681d",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_001",
+      "password": "Vnp#5GBDE681D!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25501",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-002-57a38b",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_002",
+      "password": "Vnp#5GB57A38B!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25502",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-003-d64ef6",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_003",
+      "password": "Vnp#5GBD64EF6!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25503",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-004-5a444a",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_004",
+      "password": "Vnp#5GB5A444A!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25504",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-005-4d24ab",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_005",
+      "password": "Vnp#5GB4D24AB!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25505",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-006-fd9260",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_006",
+      "password": "Vnp#5GBFD9260!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25506",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-007-eefcea",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_007",
+      "password": "Vnp#5GBEEFCEA!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25507",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-008-8702de",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_008",
+      "password": "Vnp#5GB8702DE!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25508",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-009-f86aee",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_009",
+      "password": "Vnp#5GBF86AEE!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25509",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-010-301ccf",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_010",
+      "password": "Vnp#5GB301CCF!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25510",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-011-261648",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_011",
+      "password": "Vnp#5GB261648!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25511",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-012-d553c7",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_012",
+      "password": "Vnp#5GBD553C7!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25512",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-013-790505",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_013",
+      "password": "Vnp#5GB790505!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25513",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-014-559b30",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_014",
+      "password": "Vnp#5GB559B30!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25514",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-5gb-015-e97e3f",
+      "packageId": "pkg-5gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_5gb_015",
+      "password": "Vnp#5GBE97E3F!",
+      "notes": "Auto-generated stock for 5GB ready to use. Port: 25515",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-001-e95d43",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_001",
+      "password": "Vnp#6GBE95D43!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25501",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-002-074c90",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_002",
+      "password": "Vnp#6GB074C90!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25502",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-003-c668d4",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_003",
+      "password": "Vnp#6GBC668D4!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25503",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-004-c9a092",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_004",
+      "password": "Vnp#6GBC9A092!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25504",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-005-f924d3",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_005",
+      "password": "Vnp#6GBF924D3!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25505",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-006-6279eb",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_006",
+      "password": "Vnp#6GB6279EB!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25506",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-007-7c26e7",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_007",
+      "password": "Vnp#6GB7C26E7!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25507",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-008-89a868",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_008",
+      "password": "Vnp#6GB89A868!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25508",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-009-67e0af",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_009",
+      "password": "Vnp#6GB67E0AF!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25509",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-6gb-010-2f932e",
+      "packageId": "pkg-6gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_6gb_010",
+      "password": "Vnp#6GB2F932E!",
+      "notes": "Auto-generated stock for 6GB ready to use. Port: 25510",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-001-9a58e9",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_001",
+      "password": "Vnp#7GB9A58E9!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25501",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-002-1fa533",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_002",
+      "password": "Vnp#7GB1FA533!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25502",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-003-8b3a4c",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_003",
+      "password": "Vnp#7GB8B3A4C!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25503",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-004-15e9d6",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_004",
+      "password": "Vnp#7GB15E9D6!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25504",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-005-5f0863",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_005",
+      "password": "Vnp#7GB5F0863!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25505",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-006-e37b21",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_006",
+      "password": "Vnp#7GBE37B21!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25506",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-007-a6a981",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_007",
+      "password": "Vnp#7GBA6A981!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25507",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-008-b87cdb",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_008",
+      "password": "Vnp#7GBB87CDB!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25508",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-009-71a0ae",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_009",
+      "password": "Vnp#7GB71A0AE!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25509",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.417Z"
+    },
+    {
+      "id": "stk-pkg-7gb-010-0a3b61",
+      "packageId": "pkg-7gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_7gb_010",
+      "password": "Vnp#7GB0A3B61!",
+      "notes": "Auto-generated stock for 7GB ready to use. Port: 25510",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.418Z"
+    },
+    {
+      "id": "stk-pkg-8gb-001-78dde2",
+      "packageId": "pkg-8gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_8gb_001",
+      "password": "Vnp#8GB78DDE2!",
+      "notes": "Auto-generated stock for 8GB ready to use. Port: 25501",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.418Z"
+    },
+    {
+      "id": "stk-pkg-8gb-002-8f3870",
+      "packageId": "pkg-8gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_8gb_002",
+      "password": "Vnp#8GB8F3870!",
+      "notes": "Auto-generated stock for 8GB ready to use. Port: 25502",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.418Z"
+    },
+    {
+      "id": "stk-pkg-8gb-003-e4f122",
+      "packageId": "pkg-8gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_8gb_003",
+      "password": "Vnp#8GBE4F122!",
+      "notes": "Auto-generated stock for 8GB ready to use. Port: 25503",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.418Z"
+    },
+    {
+      "id": "stk-pkg-8gb-004-427871",
+      "packageId": "pkg-8gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_8gb_004",
+      "password": "Vnp#8GB427871!",
+      "notes": "Auto-generated stock for 8GB ready to use. Port: 25504",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.418Z"
+    },
+    {
+      "id": "stk-pkg-8gb-005-9b8455",
+      "packageId": "pkg-8gb",
+      "url": "https://panel.vannpeterodycl.net",
+      "username": "vann_8gb_005",
+      "password": "Vnp#8GB9B8455!",
+      "notes": "Auto-generated stock for 8GB ready to use. Port: 25505",
+      "status": "AVAILABLE",
+      "createdAt": "2026-09-03T00:01:55.418Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "VNP-2ED4891F",
+      "packageId": "pkg-3gb",
+      "packageName": "Panel 3GB",
+      "price": 1000,
+      "buyerName": "Budi Santoso",
+      "buyerContact": "08123456789",
+      "paymentMethod": "qris",
+      "paymentStatus": "PAID",
+      "orderStatus": "COMPLETED",
+      "createdAt": "2026-09-03T00:04:45.380Z",
+      "paidAt": "2026-09-03T00:04:45.406Z",
+      "deliveredPanel": {
+        "url": "https://panel.vannpeterodycl.net",
+        "username": "vann_3gb_001",
+        "password": "Vnp#3GBA87BF9!",
+        "notes": "Auto-generated stock for 3GB ready to use. Port: 25501"
+      }
+    }
+  ],
+  "traffic": [
+    {
+      "id": "trf-1788393885407-263",
+      "timestamp": "2026-09-03T00:04:45.407Z",
+      "type": "payment_success",
+      "details": "Pembayaran sukses: VNP-2ED4891F - Panel 3GB"
+    },
+    {
+      "id": "trf-1788393885380-871",
+      "timestamp": "2026-09-03T00:04:45.380Z",
+      "type": "create_order",
+      "details": "Order baru dibuat: VNP-2ED4891F (Panel 3GB)"
+    },
+    {
+      "id": "trf-1788393715418",
+      "timestamp": "2026-09-03T00:01:55.418Z",
+      "type": "visit",
+      "details": "System initialized with default stock"
+    }
+  ],
+  "adminSecret": "admin123"
+}

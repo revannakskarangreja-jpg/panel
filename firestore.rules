@@ -1,0 +1,64 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Global Catch-all Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidOrder(data) {
+      return data.id is string && data.id.size() <= 128 &&
+        data.packageId is string && data.packageId.size() <= 128 &&
+        data.packageName is string && data.packageName.size() <= 200 &&
+        data.price is number && data.price >= 0 &&
+        data.buyerName is string && data.buyerName.size() <= 100 &&
+        data.buyerContact is string && data.buyerContact.size() <= 50 &&
+        data.paymentMethod is string && data.paymentMethod.size() <= 50 &&
+        data.paymentStatus is string && data.paymentStatus.size() <= 50 &&
+        data.orderStatus is string && data.orderStatus.size() <= 50 &&
+        data.createdAt is string && data.createdAt.size() <= 100;
+    }
+
+    // Test connection document
+    match /test/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Orders Collection
+    match /orders/{orderId} {
+      // Allow customers to retrieve their specific order details using order ID
+      allow get: if isValidId(orderId);
+      // Deny bulk listing without filter
+      allow list: if false;
+      // Allow creating an order with valid fields
+      allow create: if isValidId(orderId) && isValidOrder(incoming()) && incoming().id == orderId;
+      // Updates are locked down to prevent client tampering
+      allow update, delete: if false;
+    }
+
+    // Settings Collection (Public read for active payment methods, write blocked from client)
+    match /settings/{settingId} {
+      allow get: if isValidId(settingId);
+      allow list: if false;
+      allow write: if false;
+    }
+  }
+}
